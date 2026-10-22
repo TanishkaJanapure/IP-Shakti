@@ -1,0 +1,9 @@
+{
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "chunk_size": 512,
+  "chunk_overlap": 128,
+  "total_documents_indexed": 90,
+  "total_chunks": 2408,
+  "embedding_dim": 384,
+  "faiss_index_type": "IndexFlatIP"
+}

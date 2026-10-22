@@ -1,0 +1,10 @@
+{
+  "description": "An AI-driven assistant providing expert guidance on Intellectual Property Rights and regulatory compliance for Ayurveda practitioners and businesses.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+Backend/.env
+Backend/.venv/
+Backend/__pycache__/
+Backend/data/users.sqlite3
+*.pyc
