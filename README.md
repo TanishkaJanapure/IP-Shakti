@@ -64,5 +64,32 @@ Run frontend production build:
 ```powershell
 npm run build
 ```
+
+Backend — Terminal 1
+Open PowerShell and run:
+    cd S:\Downloads\IP-SAKTI-Sahayak-Updated\IP-SAKTI-Sahayak-Updated\Backend
+
+Activate your virtual environment if you have one. Then start the backend:
+    python -m uvicorn main:app --host 127.0.0.1 --port 8001
+
+Open the API documentation: http://127.0.0.1:8001/docs
+Keep this terminal running.
+
+
+
+Frontend — Terminal 2
+Open a second PowerShell terminal and run:
+  cd S:\Downloads\IP-SAKTI-Sahayak-Updated\IP-SAKTI-Sahayak-Updated
+  npm install
+  npm run dev -- --port 8443
+
+
+
+Run backend tests
+Open another terminal:
+   cd S:\Downloads\IP-SAKTI-Sahayak-Updated\IP-SAKTI-Sahayak-Updated\Backend
+   python -m pytest -q
+
+   
 The archive was assembled and Python files passed syntax compilation in the build environment. A full npm production build could not be confirmed because package installation did not complete in the build environment; run the commands above locally and share any error output for a targeted fix.
 "# IP-Shakti" 
